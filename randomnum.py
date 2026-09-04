@@ -5,8 +5,10 @@ vidas = 5
 print("O computador escolheu um numero aleatório entre 1 e 100. Tente adivinhar!")
 print(f"voce tem {vidas} ❤️  vidas para acertar o numero aleatório.")
 
+# Parte para o jogador escolher um numero entre 1 a 100
 Escolha = int(input("Escolha um numero entre 1 e 100: "))
 
+# Loop para verificar se o jogador acertou o numero aleatório
 while Escolha != num_aleatorio and vidas > 0:
         vidas -= 1
         
